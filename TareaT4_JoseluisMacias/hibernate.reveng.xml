@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<type-mapping>
+		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
+		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
+	</type-mapping>
+	<table-filter match-catalog="tareat4" match-name="compras" />
+	<table-filter match-catalog="tareat4" match-name="usuarios" />
+	<table catalog="tareat4" name="compras">
+		<column name="id"></column>
+		<column name="usuario_id"></column>
+		<column name="nombre_producto"></column>
+		<column name="precio"></column>
+		<column name="fecha_compra"></column>
+		<column name="ID"></column>
+		<column name="nombre"></column>
+		<column name="apellidos"></column>
+		<column name="direccion"></column>
+		<column name="codigo_postal"></column>
+		<column name="telefono"></column>
+	</table>
+	<table catalog="tareat4" name="usuarios">
+		<column name="id"></column>
+		<column name="usuario_id"></column>
+		<column name="nombre_producto"></column>
+		<column name="precio"></column>
+		<column name="fecha_compra"></column>
+		<column name="ID"></column>
+		<column name="nombre"></column>
+		<column name="apellidos"></column>
+		<column name="direccion"></column>
+		<column name="codigo_postal"></column>
+		<column name="telefono"></column>
+	</table>
+</hibernate-reverse-engineering>
